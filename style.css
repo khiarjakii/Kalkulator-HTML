@@ -1,6 +1,6 @@
 body{
 	font-family: 'Open Sans',sans-serif;
-	background-color:black;
+	background-color:rgb(255, 255, 255);
 }
 #container{
 	width: 1000px;
@@ -10,12 +10,12 @@ body{
 #calculator{
 	width: 320px;
 	height: 520px;
-    background-color: #eaedef;
+    background-color: #0099ff;
     margin: 0 auto;
     top: 20px;
     position: relative;
     border-radius: 5px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 4px 8px 0 rgb(77, 77, 77), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 #result{
     height: 120px;
@@ -50,10 +50,10 @@ body{
 
 }
 .number, .empty{
-    background-color: #eaedef;
+    background-color:#0c6aa8;
 }
 .operator{
-    background-color:lightgrey;
+    background-color:#0c6aa8;
 }
 .number, .operator{
     cursor: pointer;
@@ -84,5 +84,9 @@ button:nth-child(20){
     font-size: 20px;
     background-color: #9477af;
 }
-
+footer{
+    font-size: 20px;
+    font-color: #000000;
+    background-color: #ffffff;
+}
 
